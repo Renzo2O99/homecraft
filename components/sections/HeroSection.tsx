@@ -8,7 +8,7 @@ export default function HeroSection() {
   const { title, subtitle, buttonText } = heroData;
 
   return (
-    <Section id="home" className="mb-50 md:mb-24 lg:mb-18 text-white bg-[url('/img/hero-bg.png')] bg-cover bg-no-repeat bg-right md:bg-center h-[55rem]">
+    <Section id="home" className="mb-64 md:mb-24 lg:mb-18 text-white bg-[url('/img/hero-bg.png')] bg-cover bg-no-repeat bg-right md:bg-center h-[55rem]">
       <Container className="pt-[10rem] pb-[16rem] mb-[20rem] md:mb-[10rem]">
         <h1 className="mx-auto font-semibold mb-8 md:mb-16 leading-normal text-[clamp(1.5rem,2.75vw,3rem)]">
           {title}
