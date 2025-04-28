@@ -1,0 +1,93 @@
+@theme {
+  /* Colors */
+  /*? Primary */
+  /* #region */
+  --color-primary-50: #e8e9ee;
+  --color-primary-100: #cdd0da;
+  --color-primary-200: #9ca2b5;
+  --color-primary-300: #6d7692;
+  --color-primary-400: #484e60;
+  --color-primary-500: #23262f;
+  --color-primary-600: #1c1f26;
+  --color-primary-700: #16181d;
+  --color-primary-800: #0d0e12;
+  --color-primary-900: #070709;
+  --color-primary-950: #040506;
+  /* #endregion */
+
+  /*? Color Accent */
+  /* #region */
+  --color-accent-50: #e5f6f5;
+  --color-accent-100: #cbecea;
+  --color-accent-200: #96d9d6;
+  --color-accent-300: #62c6c1;
+  --color-accent-400: #3ba5a0;
+  --color-accent-500: #286f6c;
+  --color-accent-600: #205a57;
+  --color-accent-700: #184341;
+  --color-accent-800: #102d2c;
+  --color-accent-900: #081616;
+  --color-accent-950: #040b0b;
+  /* #endregion */
+
+  /*? Color Grey */
+  /* #region */
+  --color-grey-50: #f5f5f5;
+  --color-grey-100: #eaeaeb;
+  --color-grey-200: #d2d3d5;
+  --color-grey-300: #bdbec1;
+  --color-grey-400: #a6a7ab;
+  --color-grey-500: #919297;
+  --color-grey-600: #727379;
+  --color-grey-700: #57585c;
+  --color-grey-800: #393a3c;
+  --color-grey-900: #1e1e1f;
+  --color-grey-950: #0f0f10;
+  /* #endregion */
+
+
+  --color-grey-1: #D9D9D9;
+  --color-grey-2: #E7E9EB;
+  --color-grey-3: #F5F5F5;
+
+  --color-white: #fff;
+
+  /*? Color Pink */
+  /* #region */
+  --color-pink-50: #fffafb;
+  --color-pink-100: #fff5f7;
+  --color-pink-200: #ffe5ea;
+  --color-pink-300: #ffdbe1;
+  --color-pink-400: #ffccd5;
+  --color-pink-500: #ffc0cb;
+  --color-pink-600: #ff6680;
+  --color-pink-700: #ff0f37;
+  --color-pink-800: #b3001e;
+  --color-pink-900: #5c000f;
+  --color-pink-950: #2e0008;
+  /* #endregion */
+
+
+  /* Typography */
+  --font-primary: 'Saira';
+  --heading-size: clamp(1.25rem, 2.75vw, 3.75rem);
+
+  /* Layout */
+  --container-padding: 1.5rem;
+
+
+  /* Breakpoints */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* Background Images */
+  --image-hero: "url('/img/hero-bg.png')";
+  --image-newsletter: "url('/img/newsletter.png')";
+
+  /* Effects */
+  --drop-shadow-primary: '0px 4px 10px rgba(15, 27, 51, 0.05)';
+
+  /* Padding */
+}
