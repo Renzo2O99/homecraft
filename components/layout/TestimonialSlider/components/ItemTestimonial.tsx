@@ -3,12 +3,7 @@ import { CarouselItem } from "@/components/ui/carousel";
 import { TestimonialPersonInterface } from "@/interface";
 import Image from "next/image";
 
-interface Props {
-  person: TestimonialPersonInterface;
-  index: number;
-}
-
-export default function ItemTestimonial({ person, index }: Props) {
+export default function ItemTestimonial({ person }: { person: TestimonialPersonInterface}) {
   const { name, avatar, occupation, message } = person;
 
   return (

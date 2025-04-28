@@ -19,7 +19,11 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      window.scrollY > 80 ? setBg(true) : setBg(false);
+      if (window.scrollY > 80) {
+        setBg(true);
+      } else {
+        setBg(false);
+      }
     }
 
     window.addEventListener("scroll", handleScroll);
@@ -48,7 +52,7 @@ export default function Navbar() {
     <header className={headerClasses}>
       <Container>
         <div className="flex justify-between items-center pl-4 pr-6 md:pl-6">
-          <Link href="/">
+          <Link href="#home">
             <Image
               src={WhiteLogo}
               width={250}

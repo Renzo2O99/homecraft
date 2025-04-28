@@ -7,7 +7,7 @@ import { featuresData } from "@/data";
 
 export default function UltimateFeaturesSection() {
   const { feature2: data } = featuresData;
-  const { title, subtitle, items, image } = data;
+  const { title, subtitle, image } = data;
 
   return (
     <Section>

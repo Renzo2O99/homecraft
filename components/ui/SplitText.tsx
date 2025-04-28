@@ -94,7 +94,7 @@ const SplitText: React.FC<SplitTextProps> = ({
               words.slice(0, wordIndex).reduce((acc, w) => acc + w.length, 0) +
               letterIndex;
 
-          const AnimatedSpan = animated.span as any;
+          const AnimatedSpan = animated.span as React.FC<React.HTMLAttributes<HTMLSpanElement>>;
 
             return (
               <AnimatedSpan

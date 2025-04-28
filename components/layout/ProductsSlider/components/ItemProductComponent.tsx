@@ -4,7 +4,7 @@ import Image from "next/image";
 import { HiPlusSm } from "react-icons/hi";
 
 export default function ItemProductComponent({ product }: { product: ProductInterface}) {
-  const { name, image, price, oldPrice, icon } = product;
+  const { name, image, price, oldPrice } = product;
   return (
     <Card className="w-full max-w-72 p-4 h-96 text-left border-2 hover:border-accent-500 transition-all duration-300 shadow-[-10px_9px_14px_2px_rgba(0,_0,_0,_0.15)] hover:shadow-[0px_0px_73px_-9px_#cbecea] cursor-pointer">
       <CardHeader className="w-full border rounded-2xl border-gray-400 max-w-72 h-full max-h-72 flex items-center justify-center mb-4 relative cursor-zoom-in">

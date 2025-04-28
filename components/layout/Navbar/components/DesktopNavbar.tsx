@@ -1,6 +1,4 @@
 import { NavigationDataInterface } from "@/interface";
-import { capitalizeFirstLetter } from "@/lib/utils";
-import Link from "next/link";
 import NavLink from "./NavLink";
 
 export default function DesktopNavbar( { navigation }: NavigationDataInterface) {

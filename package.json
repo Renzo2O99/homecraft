@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "panda": "panda codegen",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -27,18 +26,13 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@pandacss/dev": "^0.53.4",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@unocss/postcss": "66.1.0-beta.12",
-    "@unocss/preset-attributify": "66.1.0-beta.12",
-    "@unocss/preset-wind4": "66.1.0-beta.12",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "unocss": "66.1.0-beta.12"
+    "typescript": "^5"
   }
 }

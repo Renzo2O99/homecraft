@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col lg:flex-row justify-between items-center border-b border-gray-700/75 pb-8 mb-8 lg:pb-8 lg:mb-8
           ">
             <Link 
-              href="/"
+              href="#home"
               className="mb-6 lg:mb-0"
             >
               <Image

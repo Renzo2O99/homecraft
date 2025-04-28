@@ -1,12 +1,9 @@
 import { testimonialData } from "@/data";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
+  CarouselContent, CarouselNext,
   CarouselPrevious,
-  type CarouselApi,
+  type CarouselApi
 } from "@/components/ui/carousel";
 import { useEffect, useState } from "react";
 import ItemTestimonial from "./components/ItemTestimonial";
@@ -29,7 +26,7 @@ export default function TestimonialSlider() {
     api.on("select", () => {
       setCurrent(api.selectedScrollSnap() + 1);
     });
-  }, [api]);
+  }, [api, persons.length]);
 
   return (
     <div className="mx-auto max-w-xs">
@@ -39,7 +36,6 @@ export default function TestimonialSlider() {
             <ItemTestimonial 
               key={index} 
               person={person}
-              index={index} 
             />
           ))}
         </CarouselContent>
