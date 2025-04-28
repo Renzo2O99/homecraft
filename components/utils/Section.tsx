@@ -1,9 +1,17 @@
 import { ComponentPropsInterface } from "@/interface";
-import { FC, HTMLAttributes } from "react";
 import { twMerge } from "tailwind-merge";
 
-export default function Section({ children, className, ...props }: ComponentPropsInterface) {
+interface SectionPropsInterface extends ComponentPropsInterface{
+  id?: string;
+}
+
+export default function Section({ id, children, className, ...props }: SectionPropsInterface) {
   return (
-    <section className={twMerge("py-12 lg:py-18 px-4 lg:px-10", className)} {...props}>{children}</section>
+    <section 
+      id={id}
+      className={twMerge("py-12 lg:py-18 px-4 lg:px-10", className)} 
+      {...props}>
+      {children}
+    </section>
   );
 }

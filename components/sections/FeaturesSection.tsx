@@ -11,7 +11,7 @@ export default function FeaturesSection() {
   const { title, subtitle, image, items } = data;
   
   return (
-    <Section>
+    <Section id="features" className="scroll-mt-19">
       <Container>
         <div className="flex flex-col lg:flex-row lg:gap-x-14 text-center lg:text-left">
           <div className="flex-1 order-1 lg:-order-1">

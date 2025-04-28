@@ -4,19 +4,23 @@ export const navigationData: NavigationDataInterface = {
   navigation: [
     {
       name: "home",
-      href: "home",
-    },
-    {
-      name: "about",
-      href: "about",
+      href: "#home",
     },
     {
       name: "features",
-      href: "features",
+      href: "#features",
+    },
+    {
+      name: "products",
+      href: "#products",
+    },
+    {
+      name: "testimonials",
+      href: "#testimonials",
     },
     {
       name: "contact",
-      href: "contact",
+      href: "#contact",
     },
   ],
 };

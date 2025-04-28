@@ -9,7 +9,7 @@ export default function TestimonialSection() {
   const { title, image } = testimonialData;
 
   return (
-    <Section>
+    <Section id="testimonials" className="my-10 py-0 scroll-mt-10">
       <Container>
         <div className="flex flex-col lg:flex-row lg:gap-x-10 gap-y-2">
           <div className="lg:max-w-1/2">

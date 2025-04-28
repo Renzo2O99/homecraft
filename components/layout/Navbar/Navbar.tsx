@@ -66,7 +66,10 @@ export default function Navbar() {
 
           <DesktopNavbar navigation={navigation} />
 
-          <div className={mobileClasses}>
+          <div 
+            onClick={() => setMobileNav(!mobileNav)}
+            className={mobileClasses}
+          >
             <MobileNavbar navigation={navigation} />
           </div>
 

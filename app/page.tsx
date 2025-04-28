@@ -1,6 +1,5 @@
 "use client";
 
-import Footer from "@/components/layout/Footer/Footer";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import HeroSection from "@/components/sections/HeroSection";
 import NewProductsSection from "@/components/sections/NewProductsSection";
@@ -25,8 +24,6 @@ export default function Home() {
       <TestimonialSection />
 
       <NewsletterSection />
-
-      <Footer />
     </main>
   );
 }

@@ -8,7 +8,7 @@ export default function NewsletterSection() {
   const { title, subtitle, placeholder, buttonText } = newsletterData;
 
   return (
-    <Section className="bg-[url('/img/newsletter.png')] min-h-[31rem] bg-left md:bg-center">
+    <Section id="contact" className="bg-[url('/img/newsletter.png')] min-h-[31rem] bg-left md:bg-center scroll-mt-18">
       <Container className="flex justify-center lg:justify-end">
         <div className="w-full max-w-xl text-center text-white lg:text-left">
           <Title className="text-4xl font-semibold max-w-80 md:max-w-full mx-auto lg:mx-0 mb-5 leading-normal">
