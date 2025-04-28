@@ -33,7 +33,7 @@ export default function Navbar() {
     }
   }, [])
 
-  const staticBgClasses = "fixed left-0 w-full py-8 z-10 transition-all duration-500";
+  const staticBgClasses = "fixed left-0 w-full py-8 z-100 transition-all duration-500";
   const conditionalBgStyles = {
     "bg-primary-500 py-4": bg === true,
     "bg-none": bg === false,
